@@ -117,15 +117,10 @@ For designs that use a weighted hybrid model of collaborative and content-based 
 
    First, design a weighted aggregation strategy, such as assigning larger content-based weights for new users and assigning larger collaborative weights for engaged users. 
 
-   Then, apply the formula :
-
-   
+   Then, apply the formula : 
 
    `Score(u, j) = w_content       × Score_content(u, j)` 
-
-               `+ w_collaborative × Score_collaborative(u, j)`
-
-   
+               `+ w_collaborative × Score_collaborative(u, j)` 
 
    Here, Score(u, j) would be the final hybrid recommendation score for user (u) and job (j).
 
