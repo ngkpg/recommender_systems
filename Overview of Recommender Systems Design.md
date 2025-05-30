@@ -75,18 +75,18 @@ A solid job-matching recommender system typically consists of:
 - Job Recommender: Weighted hybrid of content-based + collaborative filtering
 - Gap Finder: LLM analyzes (user, job) pairs, prescribes improvements
 
-[![Design #1 - Non-Agentic (Hybrid + LLM)](https://drive.google.com/uc?export=view&id=1LzTMuL0x8s-qBp80_aKHn51dP4AvqBs_)]
+[![Design #1 - Non-Agentic](https://drive.google.com/uc?export=view&id=1LzTMuL0x8s-qBp80_aKHn51dP4AvqBs_)]
 
 **Design #2: Agentic (RLHF)**
 - Each user is assigned an agent that learns to rank jobs based on their evolving feedback, using RLHF (reinforcement learning with human feedback)
 - LLM-based agent dynamically adjusts gap detection and action-plan prompts
 
-[![Design #2 - Agentic (RLHF)](https://drive.google.com/uc?export=view&id=1IEQPJGhDARasXO2KtJk6c61dvjdI2QGw)]
+[![Design #2 - Agentic](https://drive.google.com/uc?export=view&id=1IEQPJGhDARasXO2KtJk6c61dvjdI2QGw)]
 
 **Design #3: Multi-Agent LLM with RLHF**
 - A team of specialized LLM agents curate jobs, diagnose gaps, and recommend action plans, interacting in dialogue and continuously improved via RLHF.
 
-[![Design #1. Multi-Agent LLM (RLHF)](https://drive.google.com/uc?export=view&id=1U8PVywSv8HOm4SDmVgxJObpCGbBFDdYZ)]
+[![Design #1. Multi-Agent](https://drive.google.com/uc?export=view&id=1U8PVywSv8HOm4SDmVgxJObpCGbBFDdYZ)]
 
 ---
 
